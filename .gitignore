@@ -1,0 +1,49 @@
+# MATLAB / Simulink .gitignore
+# ----------------------------
+
+# Backup and autosave files
+*.asv
+*.autosave
+
+# Compiled binaries
+*.mex*
+*.dll
+*.so
+*.dylib
+*.exe
+
+# MATLAB cache and temporary directories
+*_mcr/
+mccExcludedFiles.log
+v2/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary/log files
+*.tmp
+*.log
+
+# Figures (ignore if regenerated, keep if needed)
+# *.fig
+
+# Simulink project/cache folders
+.slprj/
+.ssf/
+.simulink/
+.par/
+*.slxc
+
+# Simulink build/test artifacts
+*.mdl.rtw
+*.tlc
+*.xpc*
+*.tmf
+
+# User-specific settings (keep .mlproj/.prj if you want to share projects)
+*.settings
+
+# Optional outputs
+Old/
+Raw Data/
